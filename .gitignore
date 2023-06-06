@@ -1,0 +1,12 @@
+node_modules
+.DS_Store
+.Trashes
+.idea
+*.log
+.sass-cache
+*.css.map
+*.js.map
+.tern-project
+
+# app files
+dist

@@ -1,0 +1,57 @@
+details {
+  margin-top: 0.5em;
+
+  summary {
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    &::before {
+      content: "+";
+      display: inline-block;
+      width: 1em;
+    }
+  }
+
+  .options {
+    position: relative;
+    padding: 8px 16px;
+
+    .optionItem + .optionItem {
+      margin-top: 5px;
+    }
+
+    label {
+      cursor: pointer;
+    }
+
+    .description {
+      position: absolute;
+      top: 100%;
+      left: 16px;
+      padding: 10px;
+      background-color: #fff;
+      border: 1px solid #eee;
+      box-sizing: border-box;
+      font-size: 12px;
+      white-space: nowrap;
+      transition: visibility 0s 0.2s, opacity 0.2s;
+      visibility: hidden;
+      opacity: 0;
+    }
+
+    label:hover + .description {
+      transition: visibility 0s, opacity 0.2s 0.4s;
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+}
+
+details[open] > summary::before {
+  content: "-";
+}

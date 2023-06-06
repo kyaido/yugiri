@@ -1,0 +1,26 @@
+.footer {
+  margin-top: auto;
+  padding: 20px;
+  border-top: 1px solid #eee;
+  text-align: center;
+  font-size: 12px;
+
+  .links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .link {
+    margin: 0 40px;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
