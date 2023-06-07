@@ -1,6 +1,8 @@
 {
   "functions": {
-    "dist/main.js": {}
+    "dist/main.js": {
+      "maxDuration": 30
+    }
   },
   "rewrites": [{ "source": "/(.*)", "destination": "dist/main.js" }]
 }
