@@ -1,5 +1,8 @@
 # Yugiri
 
+<img width="995" alt="image" src="https://github.com/kyaido/yugiri/assets/1821441/3568b416-9b04-478b-a44f-d98ef013ebf0">
+
+
 ## 特徴
 
 - ブラウザに画像をドロップするだけで、誰でも簡単に画像の容量を圧縮できる
