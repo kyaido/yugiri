@@ -32,8 +32,8 @@
 
 ### SVG
 
-下記のデフォルト設定 + `removeViewBox: false;`を指定しています。
-任意のオプションを選択することはできません。
+下記のデフォルト設定 + `removeViewBox: false;`を指定しています。  
+任意のオプションを選択することはできません。  
 https://github.com/svg/svgo#what-it-can-do
 
 ## 開発
