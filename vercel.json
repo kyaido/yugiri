@@ -1,9 +1,9 @@
 {
   "functions": {
-    "dist/main.js": {
+    "dist/api/main.js": {
       "memory": 3008,
       "maxDuration": 30
     }
   },
-  "rewrites": [{ "source": "/(.*)", "destination": "dist/main.js" }]
+  "rewrites": [{ "source": "/(.*)", "destination": "dist/api/main.js" }]
 }
